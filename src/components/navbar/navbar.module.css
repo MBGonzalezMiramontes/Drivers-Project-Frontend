@@ -1,0 +1,92 @@
+/* navbar.module.css */
+
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a62b1f;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  font-family: "Roboto", sans-serif;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #f2f2f2;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 300;
+}
+
+.link:hover {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500;
+}
+
+/* Estilo para el botón al estar activo (puedes habilitarlo si lo necesitas) */
+.link.active {
+  background-color: #f24738;
+  color: #f2f2f2;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .link {
+    padding: 8px 16px;
+  }
+}
+
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchBarContainer input[type="text"] {
+  padding: 8px;
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.searchBarContainer input[type="submit"] {
+  background-color: #f24738;
+  color: #f2f2f2;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para el botón al pasar el cursor por encima */
+.searchBarContainer button[type="submit"] {
+  background-color: #f24738; 
+  color: #f2f2f2; 
+  border: none; 
+  padding: 8px 16px; 
+  border-radius: 4px;
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para el botón al pasar el cursor por encima */
+.searchBarContainer button[type="submit"]:hover {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

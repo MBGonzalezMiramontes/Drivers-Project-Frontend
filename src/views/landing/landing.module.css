@@ -1,0 +1,46 @@
+.landingContainer {
+  background-image: url("https://img.freepik.com/free-photo/blurred-motion-shiny-sports-car-racing-success-generative-ai_188544-53583.jpg?t=st=1694541090~exp=1694544690~hmac=ea3c1eba72e7244ab777597ef5505c3d2acb842c50530f0a3454446a6fdd4f65&w=900");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Estilos para el contenedor interno */
+.smallContainer {
+  text-align: center;
+  background-color: rgba(214, 65, 49, 0.8); /* Color de fondo semi-transparente */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título */
+.smallContainer h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+/* Estilos para el botón */
+.smallContainer button {
+  background-color: #f24738;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilos para el botón al pasar el cursor sobre él */
+.smallContainer button:hover {
+  background-color: #000000;
+}

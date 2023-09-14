@@ -1,0 +1,38 @@
+.cardContainer {
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 250px; /* Ancho fijo */
+  height: 300px; /* Alto fijo */
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Alinear contenido verticalmente */
+}
+
+.cardContainer:hover {
+  transform: scale(1.05);
+}
+
+.cardImage {
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 200px; /* Altura máxima para la imagen */
+  object-fit: cover; /* Escalar la imagen para que encaje sin distorsionarse */
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardName {
+  font-weight: bold;
+  margin: 8px 0;
+  color:black
+}
+
+.cardTeams {
+  color: #8c8c8c;
+}

@@ -1,0 +1,6 @@
+.cardsContainer {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columnas por fila */
+  gap: 16px; /* Espacio entre las cards */
+}

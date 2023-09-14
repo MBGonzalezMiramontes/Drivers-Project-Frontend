@@ -1,0 +1,70 @@
+/* Estilos para el contenedor principal */
+.homeContainer {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 60px; /* 60px de la barra de navegación + 30px de espacio en blanco */
+  padding: 20px; /* Añade un relleno adicional si es necesario */
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
+/* Estilos para la paginación */
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationButton {
+  background-color: #f24738;
+  color: #f2f2f2;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0 8px;
+}
+
+.paginationButton:hover {
+  background-color: #000000;
+  color: #f2f2f2;
+}
+
+.paginationInfo {
+  font-size: 14px;
+  margin: 0 10px;
+  color: #8c8c8c;
+}
+
+/* Estilos para el contenedor de filtros */
+.filterContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.filterLabel {
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: "Anton", sans-serif;
+}
+
+.filterSelect {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color:#7c7c7c;
+}
+
+.filterSelect option:first-child {
+  color: #c2c2c2; /* Color gris claro */
+}
