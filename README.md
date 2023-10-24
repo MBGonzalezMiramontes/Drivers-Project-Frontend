@@ -53,4 +53,3 @@ Si deseas contribuir a este proyecto, asegúrate de bifurcar el repositorio y en
 Agradecimientos
 Este proyecto fue creado como parte del bootcamp y ha sido posible gracias a la colaboración de los instructores y compañeros de equipo. ¡Gracias a todos por su apoyo!
 
-¡Disfruta del proyecto y feliz codificación!
